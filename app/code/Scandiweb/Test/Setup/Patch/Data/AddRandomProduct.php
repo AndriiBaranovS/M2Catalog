@@ -5,6 +5,7 @@
  * @author       Andrii Baranov <info@scandiweb.com>
  * @copyright    Copyright (c) 2022 Scandiweb, Ltd (http://scandiweb.com)
  */
+
 namespace Scandiweb\Test\Setup\Patch\Data;
 
 use Exception;
@@ -105,16 +106,16 @@ class AddRandomProduct implements DataPatchInterface
      * @param CategoryCollectionFactory $categoryCollectionFactory
      */
     public function __construct(
-        ModuleDataSetupInterface        $setup,
-        ProductInterfaceFactory         $productInterfaceFactory,
-        ProductRepositoryInterface      $productRepository,
-        State                           $appState,
-        StoreManagerInterface           $storeManager,
-        EavSetup                        $eavSetup,
-        SourceItemInterfaceFactory      $sourceItemFactory,
-        SourceItemsSaveInterface        $sourceItemsSaveInterface,
+        ModuleDataSetupInterface $setup,
+        ProductInterfaceFactory $productInterfaceFactory,
+        ProductRepositoryInterface $productRepository,
+        State $appState,
+        StoreManagerInterface $storeManager,
+        EavSetup $eavSetup,
+        SourceItemInterfaceFactory $sourceItemFactory,
+        SourceItemsSaveInterface $sourceItemsSaveInterface,
         CategoryLinkManagementInterface $categoryLink,
-        CategoryCollectionFactory       $categoryCollectionFactory
+        CategoryCollectionFactory $categoryCollectionFactory
     ) {
         $this->appState = $appState;
         $this->productInterfaceFactory = $productInterfaceFactory;
