@@ -1,0 +1,15 @@
+<!--
+/**
+ * @category     Scandiweb
+ * @package      Scandiweb_Test
+ * @author       Andrii Baranov <info@scandiweb.com>
+ * @copyright    Copyright (c) 2022 Scandiweb, Ltd (http://scandiweb.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Scandiweb_Test" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Catalog"/>
+        </sequence>
+    </module>
+</config>
