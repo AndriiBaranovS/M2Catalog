@@ -32,8 +32,8 @@ use Magento\Catalog\Model\ResourceModel\Category\CollectionFactory as CategoryCo
 use Zend_Validate_Exception;
 
 /**
- * Class AddProductDiscountLabelAttribute
- * @package Scandi\DiscountLabel\Setup\Patch\Schema
+ * Class AddRandomProduct
+ * @package Scandiweb\Test\Setup\Patch\Data
  */
 class AddRandomProduct implements DataPatchInterface
 {
