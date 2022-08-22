@@ -115,8 +115,7 @@ class AddRandomProduct implements DataPatchInterface
         SourceItemsSaveInterface        $sourceItemsSaveInterface,
         CategoryLinkManagementInterface $categoryLink,
         CategoryCollectionFactory       $categoryCollectionFactory
-    )
-    {
+    ) {
         $this->appState = $appState;
         $this->productInterfaceFactory = $productInterfaceFactory;
         $this->productRepository = $productRepository;
